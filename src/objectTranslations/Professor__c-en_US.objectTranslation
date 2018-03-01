@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Professor_Course_Account_Fees</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Professors_Courses_Accounts_Fees</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Professors_Courses_Accounts_Fees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Amount Rate --></label>
+        <name>Amount_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course_Account --></label>
+        <name>Course_Account__c</name>
+        <relationshipLabel><!-- Professors_Courses_Accounts_Fees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of Payment --></label>
+        <name>Date_of_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- For Year --></label>
+        <name>For_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Done ? --></label>
+        <name>Payment_Done__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Options --></label>
+        <name>Payment_Options__c</name>
+        <picklistValues>
+            <masterLabel>Fixed for the entire Course</masterLabel>
+            <translation><!-- Fixed for the entire Course --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Hour</masterLabel>
+            <translation><!-- Per Hour --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Per Hour Rate --></label>
+        <name>Per_Hour_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Per Minute Rate --></label>
+        <name>Per_Minute_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professors --></label>
+        <name>Professor__c</name>
+        <relationshipLabel><!-- Professors_Courses_Accounts_Fees --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Professor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter per hour rate --></errorMessage>
+        <name>Payment_Option_Rule_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the rate . --></errorMessage>
+        <name>Payment_Option_Rule_2</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Standard__c</fullName>
+        <externalId>false</externalId>
+        <label>Standard</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FYJC</fullName>
+                    <default>false</default>
+                    <label>FYJC</label>
+                </value>
+                <value>
+                    <fullName>SYJC</fullName>
+                    <default>false</default>
+                    <label>SYJC</label>
+                </value>
+                <value>
+                    <fullName>Nursery</fullName>
+                    <default>false</default>
+                    <label>Nursery</label>
+                </value>
+                <value>
+                    <fullName>Jr. Kg</fullName>
+                    <default>false</default>
+                    <label>Jr. Kg</label>
+                </value>
+                <value>
+                    <fullName>Sr. Kg</fullName>
+                    <default>false</default>
+                    <label>Sr. Kg</label>
+                </value>
+                <value>
+                    <fullName>5th</fullName>
+                    <default>false</default>
+                    <label>5th</label>
+                </value>
+                <value>
+                    <fullName>6th</fullName>
+                    <default>false</default>
+                    <label>6th</label>
+                </value>
+                <value>
+                    <fullName>7th</fullName>
+                    <default>false</default>
+                    <label>7th</label>
+                </value>
+                <value>
+                    <fullName>8th</fullName>
+                    <default>false</default>
+                    <label>8th</label>
+                </value>
+                <value>
+                    <fullName>9th</fullName>
+                    <default>false</default>
+                    <label>9th</label>
+                </value>
+                <value>
+                    <fullName>10th</fullName>
+                    <default>false</default>
+                    <label>10th</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Standard__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Science</fullName>
+                    <default>false</default>
+                    <label>Science</label>
+                </value>
+                <value>
+                    <fullName>Commerce</fullName>
+                    <default>false</default>
+                    <label>Commerce</label>
+                </value>
+                <value>
+                    <fullName>Pre-School</fullName>
+                    <default>false</default>
+                    <label>Pre-School</label>
+                </value>
+                <value>
+                    <fullName>School (SSC)</fullName>
+                    <default>false</default>
+                    <label>School (SSC)</label>
+                </value>
+                <value>
+                    <fullName>School (IGSE)</fullName>
+                    <default>false</default>
+                    <label>School (IGSE)</label>
+                </value>
+                <value>
+                    <fullName>School (CBSE)</fullName>
+                    <default>false</default>
+                    <label>School (CBSE)</label>
+                </value>
+                <value>
+                    <fullName>School (ICSE)</fullName>
+                    <default>false</default>
+                    <label>School (ICSE)</label>
+                </value>
+                <value>
+                    <fullName>Extra Course</fullName>
+                    <default>false</default>
+                    <label>Extra Course</label>
+                </value>
+                <value>
+                    <fullName>Professional Course</fullName>
+                    <default>false</default>
+                    <label>Professional Course</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>10th</controllingFieldValue>
+                <controllingFieldValue>5th</controllingFieldValue>
+                <controllingFieldValue>6th</controllingFieldValue>
+                <controllingFieldValue>7th</controllingFieldValue>
+                <controllingFieldValue>8th</controllingFieldValue>
+                <controllingFieldValue>9th</controllingFieldValue>
+                <valueName>School (SSC)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>10th</controllingFieldValue>
+                <controllingFieldValue>5th</controllingFieldValue>
+                <controllingFieldValue>6th</controllingFieldValue>
+                <controllingFieldValue>7th</controllingFieldValue>
+                <controllingFieldValue>8th</controllingFieldValue>
+                <controllingFieldValue>9th</controllingFieldValue>
+                <valueName>School (IGSE)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>10th</controllingFieldValue>
+                <controllingFieldValue>5th</controllingFieldValue>
+                <controllingFieldValue>6th</controllingFieldValue>
+                <controllingFieldValue>7th</controllingFieldValue>
+                <controllingFieldValue>8th</controllingFieldValue>
+                <controllingFieldValue>9th</controllingFieldValue>
+                <valueName>School (CBSE)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>10th</controllingFieldValue>
+                <controllingFieldValue>5th</controllingFieldValue>
+                <controllingFieldValue>6th</controllingFieldValue>
+                <controllingFieldValue>7th</controllingFieldValue>
+                <controllingFieldValue>8th</controllingFieldValue>
+                <controllingFieldValue>9th</controllingFieldValue>
+                <valueName>School (ICSE)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FYJC</controllingFieldValue>
+                <controllingFieldValue>SYJC</controllingFieldValue>
+                <valueName>Science</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FYJC</controllingFieldValue>
+                <controllingFieldValue>SYJC</controllingFieldValue>
+                <valueName>Commerce</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Extra Course</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Professional Course</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nursery</controllingFieldValue>
+                <controllingFieldValue>Jr. Kg</controllingFieldValue>
+                <controllingFieldValue>Sr. Kg</controllingFieldValue>
+                <valueName>Pre-School</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Course</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Course Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Courses</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Standard__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Standard__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Standard__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Type__c</searchFilterFields>
+        <searchFilterFields>Standard__c</searchFilterFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Standard__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
